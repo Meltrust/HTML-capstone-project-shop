@@ -1,3 +1,33 @@
-header {
-  color: aliceblue;
+@font-face {
+  src: url(../fonts/Gotham-Bold.otf);
+  font-family: Gotham-Bold;
+}
+
+@font-face {
+  src: url(../fonts/Gotham-Rounded-Light.otf);
+  font-family: Gotham-Light;
+}
+
+@font-face {
+  src: url(../fonts/HelveticaNeue-Bold.otf);
+  font-family: Helvetica-Bold;
+}
+
+@font-face {
+  src: url(../fonts/HelveticaNeue-Light.otf);
+  font-family: Helvetica-Light;
+}
+
+@font-face {
+  src: url(../fonts/HelveticaNeue-Medium.otf);
+  font-family: Helvetica-Medium;
+}
+
+* {
+  font-family: Gotham-Bold, Arial, Helvetica, sans-serif;
+}
+
+.textnow {
+  display: flex;
+  color: red;
 }
