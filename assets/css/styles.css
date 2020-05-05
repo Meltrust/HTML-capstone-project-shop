@@ -24,10 +24,100 @@
 }
 
 * {
+  font-family: Gotham-Light, Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: #d35266 !important;
+}
+
+header {
+  background-color: #383838;
+  font-size: 1rem;
+}
+
+.ad-button-text {
+  font-family: Gothic-Bold, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.main-logo {
+  object-fit: fill;
+}
+
+.home-container {
+  color: #d35266;
+}
+
+.collections-container,
+.purchase-list-container,
+.nav-envelope-container {
+  color: #888888;
+}
+
+.nav-envelope-container {
+  font-size: 20px;
+}
+
+.unread-messages {
+  background-color: rgb(204, 66, 66);
+  border-radius: 15px;
+  top: -6px;
+  right: -8px;
+  width: 16px;
+  height: 16px;
+}
+
+.unread-messages-number {
+  top: -1px;
+  right: -8px;
+  width: 12px;
+  height: 12px;
+  font-size: 11px;
   font-family: Gotham-Bold, Arial, Helvetica, sans-serif;
 }
 
-.textnow {
-  display: flex;
-  color: red;
+.nav-user-name {
+  font-family: Gotham-Bold, Arial, Helvetica, sans-serif;
+}
+
+.nav-user-img-container {
+  background-image: url(../images/me.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    font-size: 0.7rem;
+  }
+
+  .main-logo {
+    height: 1.5rem;
+    position: relative;
+    top: 1px;
+  }
+
+  .nav-icons-container {
+    line-height: 9px;
+    position: relative;
+    top: -2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-logo {
+    height: 2.5rem;
+    position: relative;
+    top: 1px;
+  }
+}
+
+.nav-icons-container {
+  line-height: 9px;
+  position: relative;
+  top: -2px;
 }
