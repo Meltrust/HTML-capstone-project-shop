@@ -96,7 +96,7 @@ main {
 
 .search-section {
   background-color: #d35266;
-  height: 40%;
+  height: 35%;
 }
 
 .search-section-zattix {
@@ -108,6 +108,11 @@ main {
 .search-section-text {
   font-family: Helvetica-Light, Arial, Helvetica, sans-serif;
   font-size: 25px;
+}
+
+.main-search-button {
+  color: #888;
+  background-color: #383838 !important;
 }
 
 @media (max-width: 740px) {
