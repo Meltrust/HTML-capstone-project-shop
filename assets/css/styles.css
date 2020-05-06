@@ -31,6 +31,10 @@ body {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 button {
   background-color: #d35266 !important;
 }
@@ -59,7 +63,7 @@ b {
 }
 
 .home-container {
-  color: #d35266;
+  color: #d35266 !important;
 }
 
 .nav-icons-container {
@@ -380,6 +384,21 @@ footer {
   padding-bottom: 3%;
   padding-left: 3%;
   padding-right: 6%;
+}
+
+.form-text {
+  color: #888;
+  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.main-form-headers {
+  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.custom-amount-form {
+  justify-content: flex-start !important;
 }
 
 /** MEDIA QUERIES */

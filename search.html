@@ -14,9 +14,346 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/reset.css." />
-    <link rel="stylesheet" href="/assets/css/styles.css." />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
-  <body></body>
+  <!-- ** Main Body -->
+
+  <body>
+    <!-- ** Main Header -->
+    <header class="py-0 py-md-2">
+      <nav
+        class="d-flex px-0 px-lg-2 justify-content-around py-0 justify-content-lg-around"
+      >
+        <ul class="d-flex justify-content-center align-items-center">
+          <li class="px-2 py-0 px-sm-3">
+            <a href="index.html"
+              ><img
+                class="main-logo w-100"
+                src="assets/images/mainlogo.png"
+                alt=""
+            /></a>
+          </li>
+          <li
+            class="px-2 py-1 px-sm-3 home-container d-flex justify-content-between"
+          >
+            <div class="mr-2 mr-sm-3 nav-icons-container">
+              <i class="fas fa-home"></i>
+            </div>
+            <div><a class="text-muted" href="index.html">HOME</a></div>
+          </li>
+          <li
+            class="px-2 py-1 px-sm-3 collections-container d-flex justify-content-between"
+          >
+            <div class="mr-2 mr-sm-3 nav-icons-container">
+              <i class="fas fa-border-all"></i>
+            </div>
+            <div>COLLECTIONS</div>
+          </li>
+          <li
+            class="px-2 py-1 px-sm-3 purchase-list-container d-flex justify-content-between"
+          >
+            <div
+              class="d-inline-block align-baseline mr-2 mr-sm-3 nav-icons-container"
+            >
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="text-nowrap">PURCHASE LIST</div>
+          </li>
+          <li class="ad-button-container d-none d-md-block ml-3">
+            <button
+              class="ad-button-text text-nowrap btn text-white font-weight-bold"
+            >
+              POST AN AD
+            </button>
+          </li>
+        </ul>
+        <ul class="d-lg-flex d-none justify-items-around align-items-center">
+          <li class="position-relative mr-2 mr-sm-3 nav-icons-container">
+            <div class="nav-envelope-container">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="position-absolute unread-messages"></div>
+            <div
+              class="font-weight-bold text-white position-absolute unread-messages-number"
+            >
+              5
+            </div>
+          </li>
+          <li class="nav-user-name text-white mr-3 ml-3">Miguel</li>
+          <li class="nav-user-img-container"></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="px-0 w-100">
+      <!-- ** Main search section -->
+      <section
+        class="pt-0 search-section d-none d-md-flex justify-content-center align-items-center flex-column"
+      >
+        <div class="justify-center text-white search-section-zattix">
+          ZATTIX
+        </div>
+        <div class="mb-5 text-white search-section-text">
+          Buying And Selling Couldn't be Simpler than this!
+        </div>
+        <div class="search-form d-flex justify-content-center">
+          <form>
+            <div class="form-row w-100">
+              <div class="col-3">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>All Departments</option>
+                  <option>Guitars</option>
+                  <option>Drums</option>
+                  <option>Headphones</option>
+                </select>
+              </div>
+              <div class="col">
+                <input
+                  value="What are you looking for?"
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                />
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="" />
+              </div>
+              <button type="submit" class="btn main-search-button">
+                <a href="#">Search</a>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- ** Main Search Section -->
+
+      <section
+        class="container-fluid main-search-section border-top border-bottom pt-4"
+      >
+        <div class="row">
+          <aside class="d-none col-md-3 col-xl-2 d-md-block">
+            <form
+              class="h-100 main-form container w-100 border-right pr-4 pl-3"
+              action=""
+            >
+              <div class="form-row form-group w-100 align-items-center">
+                <div class="col-6">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      Rent
+                    </label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      Ownership
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <h3 class="main-form-headers border-bottom pb-1 mb-2">Type</h3>
+              <div class="form-row form-group w-100 align-items-center pb-2">
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      Entire Place
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      Private Room
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      Shared Room
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <h3 class="main-form-headers border-bottom pb-1 mb-2">Size</h3>
+              <div class="form-row form-group w-100 align-items-center pb-2">
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      2-4 Rooms
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      5+ Rooms
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-12 form-inline w-100">
+                  <div class="form-check col-7 custom-amount-form pr-0">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      Custom
+                    </label>
+                  </div>
+                  <div class="col-5 pl-0">
+                    <input
+                      type="text"
+                      class="form-control-sm form-control col-12"
+                      placeholder=""
+                    />
+                    <label
+                      class="sr-only col-form-label-sm"
+                      for="inlineFormInputName2"
+                      >Amount</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <h3 class="main-form-headers border-bottom pb-1 mb-2">
+                Price Range
+              </h3>
+              <div class="form-row form-group w-100 align-items-center pb-2">
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      $10 - $100
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      $100 - $500
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      $500 - $1000
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck1"
+                    />
+                    <label
+                      class="form-check-label form-text col-form-label-sm"
+                      for="gridCheck1"
+                    >
+                      +$1000
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </aside>
+          <div class="col-12 col-md-9 col-xl-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            deleniti maxime, consequuntur, optio commodi quaerat velit quam
+            illum provident enim ipsum odio eius illo? Ad expedita iure
+            necessitatibus sunt atque?
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
