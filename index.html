@@ -84,7 +84,8 @@
         </ul>
       </nav>
     </header>
-    <main class="px-0">
+    <main class="px-0 w-100">
+      <!-- ** Main search section -->
       <section
         class="pt-0 search-section d-none d-md-flex justify-content-center align-items-center flex-column"
       >
@@ -96,19 +97,18 @@
         </div>
         <div class="search-form d-flex justify-content-center">
           <form>
-            <div class="form-row">
+            <div class="form-row w-100">
               <div class="col-3">
                 <select class="form-control" id="exampleFormControlSelect1">
                   <option>All Departments</option>
                   <option>Guitars</option>
-                  <option>Pianos</option>
-                  <option>Violins</option>
-                  <option>Flutes</option>
+                  <option>Drums</option>
+                  <option>Headphones</option>
                 </select>
               </div>
               <div class="col">
                 <input
-                  value="What do you search for?"
+                  value="What are you looking for?"
                   type="text"
                   class="form-control"
                   placeholder=""
@@ -124,6 +124,414 @@
           </form>
         </div>
       </section>
+
+      <!-- ** Hot ads section -->
+      <section
+        class="pt-0 hot-ads-section d-none d-md-block container-fluid mb-5 mt-4"
+      >
+        <h3 class="hot-ads-header mb-4 pb-3 position-relative">HOT ADS</h3>
+        <div class="d-flex justify-content-center w-100">
+          <div
+            class="w-100 row justify-content-around align-items-center hot-ads-section-items position-relative"
+          >
+            <div class="col"></div>
+            <div class="col-1 hot-ads-section-left-arrow text-center">
+              <i class="fas fa-chevron-left left-arrow-ads"></i>
+            </div>
+            <div class="col-3">
+              <div class="hot-ads-img-container position-relative">
+                <img
+                  class="w-100"
+                  src="assets/images/hot-ad-piano.jpg"
+                  alt=""
+                />
+                <div class="hot-ads-img-arrows-container">
+                  <div class="hot-ads-img-left-arrow py-1 px-2">
+                    <i class="fas fa-chevron-left"></i>
+                  </div>
+
+                  <div class="hot-ads-img-right-arrow py-1 px-2">
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="d-flex flex-column justify-content-center">
+                <h3 class="hot-ads-item-header">Yamaha CF6</h3>
+                <p class="item-description mb-3">
+                  Our Flagship CF Series is the culmination of nearly two
+                  decades of research and development to create the world’s
+                  finest concert grand piano. The CF is the rare union of
+                  clarity of tone and power that pianists crave.
+                </p>
+                <span><b>By: </b>John Doe</span>
+                <span class="mb-3"><b>Location: </b>San Francisco, Ca</span>
+                <div class="d-flex">
+                  <button class="btn text-white mr-1 hot-ads-buttons">
+                    $20,000
+                  </button>
+                  <button class="btn text-white hot-ads-buttons text-nowrap">
+                    <i class="fas fa-shopping-cart"></i>
+                    Purchase details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 hot-ads-section-left-arrow text-center">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ** Main shop section -->
+
+      <section
+        class="container-fluid main-shop-section border-top border-bottom pt-4"
+      >
+        <div class="row">
+          <div
+            class="col-md-1 d-none d-md-block main-shop-section-headers-separators"
+          ></div>
+          <div
+            class="col-md-10 col-12 d-flex justify-content-start align-items-center main-shop-section-headers mb-4"
+          >
+            <div class="main-shop-section-headers-icon-container px-3">
+              <i class="fas fa-guitar"></i>
+            </div>
+            <h3 class="pr-3 main-shop-section-headers-title">Guitars</h3>
+            <h3 class="main-shop-section-headers-description">
+              (Acoustic, electric, classical)
+            </h3>
+          </div>
+          <div
+            class="col-md-1 d-none d-md-block main-shop-section-headers-separators"
+          ></div>
+        </div>
+        <div class="main-page-articles-container mb-5">
+          <div class="hot-ads-section-left-arrow text-center d-none d-md-block">
+            <i class="fas fa-chevron-left left-arrow-ads"></i>
+          </div>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <div class="hot-ads-section-left-arrow text-center d-none d-md-block">
+            <i class="fas fa-chevron-right right-arrow-ads"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-1 d-none d-md-block main-shop-section-headers-separators"
+          ></div>
+          <div
+            class="col-md-10 col-12 d-flex justify-content-start align-items-center main-shop-section-headers mb-4"
+          >
+            <div class="main-shop-section-headers-icon-container px-3">
+              <i class="fas fa-drum"></i>
+            </div>
+            <h3 class="pr-3 main-shop-section-headers-title">Drums</h3>
+            <h3 class="main-shop-section-headers-description">
+              (Acoustic, EAD, Electronic)
+            </h3>
+          </div>
+          <div
+            class="col-md-1 d-none d-md-block main-shop-section-headers-separators"
+          ></div>
+        </div>
+        <div class="main-page-articles-container mb-5">
+          <div class="hot-ads-section-left-arrow text-center d-none d-md-block">
+            <i class="fas fa-chevron-left left-arrow-ads"></i>
+          </div>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/drums-phx.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <div class="hot-ads-section-left-arrow text-center d-none d-md-block">
+            <i class="fas fa-chevron-right right-arrow-ads"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-1 d-none d-md-block main-shop-section-headers-separators"
+          ></div>
+          <div
+            class="col-md-10 col-12 d-flex justify-content-start align-items-center main-shop-section-headers mb-4"
+          >
+            <div class="main-shop-section-headers-icon-container px-3">
+              <i class="fas fa-headphones"></i>
+            </div>
+            <h3 class="pr-3 main-shop-section-headers-title">Headphones</h3>
+            <h3 class="main-shop-section-headers-description">
+              (Professional grade)
+            </h3>
+          </div>
+          <div
+            class="col-md-1 d-none d-md-block main-shop-section-headers-separators"
+          ></div>
+        </div>
+        <div class="main-page-articles-container mb-5">
+          <div class="hot-ads-section-left-arrow text-center d-none d-md-block">
+            <i class="fas fa-chevron-left left-arrow-ads"></i>
+          </div>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img
+                class="w-100"
+                src="assets/images/headphones-hph-mt8.jpg"
+                alt=""
+              />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <article class="border main-page-articles bg-white p-4">
+            <div class="main-page-articles-img-container">
+              <img class="w-100" src="assets/images/guitar-fg850.jpg" alt="" />
+            </div>
+            <h3 class="main-page-articles-header pt-2 pb-1">FG850</h3>
+            <p class="main-page-articles-condition pb-2">Used</p>
+            <p class="main-page-articles-location mb-2">
+              From: <span>San Francisco, US</span>
+            </p>
+            <div class="main-page-articles-last-row">
+              <div class="main-page-articles-plus-container">
+                <i class="far fa-plus-square"></i>
+              </div>
+              <div class="main-page-articles-price">$450</div>
+            </div>
+          </article>
+          <div class="hot-ads-section-left-arrow text-center d-none d-md-block">
+            <i class="fas fa-chevron-right right-arrow-ads"></i>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-columns">
+          <div class="footer-column-1">
+            <div class="footer-logo-container">
+              <img src="assets/images/logo-footer.png" alt="" />
+            </div>
+            <div class="footer-text text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+              tempora nisi. Qui animi, hic et iure explicabo ipsam laudantium,
+              rerum molestias commodi atque sequi ullam harum quae, fuga
+              nesciunt ea?
+            </div>
+          </div>
+          <div class="footer-column-2">
+            <h3 class="footer-column-2-header">CATEGORIES</h3>
+            <div class="footer-nav">
+              <ul class="footer-nav-column-1">
+                <li>Pianos</li>
+                <li>Guitars</li>
+                <li>Headphones</li>
+                <li>Drums</li>
+                <li>Violins</li>
+                <li>Flutes</li>
+              </ul>
+              <ul class="footer-nav-column-2">
+                <li>Pianos</li>
+                <li>Guitars</li>
+                <li>Headphones</li>
+                <li>Drums</li>
+                <li>Violins</li>
+                <li>Flutes</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-column-3">
+            <h3 class="footer-column-2-header">NAVIGATION</h3>
+            <div class="footer-nav">
+              <ul class="footer-nav-column-1">
+                <li>Home</li>
+                <li>Sign in</li>
+                <li>Sign Up</li>
+                <li class="text-nowrap">Terms & Conditions</li>
+                <li>FAQ</li>
+                <li>Help</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-column-4">
+            <div class="footer-column-4-first-column mt-2 pr-2">
+              <div class="footer-column-4-labels mb-4">COUNTRY</div>
+              <div class="footer-column-4-labels mb-4 pb-1 pt-1">LANGUAGE</div>
+              <div class="footer-column-4-labels">CURRENCY</div>
+            </div>
+            <div class="footer-column-4-second-column">
+              <div class="footer-column-4-buttons mb-2">Switzerland</div>
+              <div class="footer-column-4-buttons mb-2 text-center">
+                English
+              </div>
+              <div class="footer-column-4-buttons text-center">US Dollar</div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
