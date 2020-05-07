@@ -1,6 +1,6 @@
 # HTML & CSS CAPSTONE PROJECT: A CUSTOM SHOP! 
 
-A beautiful musical instruments shop built with business specifications based on the design by Mohammed Awad.
+A beautiful and responsive musical instruments shop built with business specifications based on the design by Mohammed Awad.
 
 
 
