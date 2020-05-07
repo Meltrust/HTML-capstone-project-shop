@@ -576,6 +576,11 @@ footer {
     margin-bottom: 0 !important;
     padding: 10px 0;
   }
+
+  footer {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 
 @media (min-width: 768px) {
