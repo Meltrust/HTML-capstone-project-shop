@@ -1,57 +1,68 @@
-# Project Name
+# HTML & CSS CAPSTONE PROJECT: A CUSTOM SHOP BUILT WITH BUSSINES SPECIFICATIONS! 
 
-> One paragraph statement about the project.
+> A beautiful musical instruments shop.
 
-![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+## This is the main homepage.
+
+![screenshot](./home-screenshot.png)
+
+## This is the product search page.
+
+![screenshot](./search-screenshot.png)
+
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML 5
+- CSS Flexbox
+- CSS Grid
+- BootStrap
 
-## Live Demo
+## Validators:
 
-[Live Demo Link](https://raw.githack.com/Meltrust/HTML-capstone-project-shop/develop/index.html)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+  *  W3C validator for HTML
+  *  Stickler for "Style Matters" stickler
+  *  Stylelint for VSCode
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+## Check out a Live Demo [Here](https://raw.githack.com/Meltrust/HTML-capstone-project-shop/develop/index.html)
 
 
+## Watch a video with the presentation of the project [here]()
 
-## Authors
 
-👤 **Author1**
+## Getting Started:
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+To get a local copy up and running follow these simple example steps:
 
-👤 **Author2**
+1. Under the repository name, click the Clone or download green button.
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+![clone](https://user-images.githubusercontent.com/53324035/73660989-4451aa80-4667-11ea-8a89-176f89d6548a.png)
+
+2. Copy the URL given by clicking the clipboard button
+
+3. Open a terminal window in your local machine and change the current directory to the one you
+   want the clone directory to be made.
+
+4. Type  git clone and the paste the URL you previusly copied to the clipboard
+
+5. Change the current directory to the newly created folder
+
+6. Now open the index.html file on your browser. Use the menu to go to the catalogue of products.
+   By clicking on one product, you will be taken to the product page. You can test these three pages
+   changing the width of your browser window. The content will fit either to desktop and mobile screen
+   sizes.
+
+
+## Author
+
+👤 **Miguel Tapia**
+
+- Github: [@meltrust](https://github.com/meltrust)
+- Linkedin: [linkedin](https://www.linkedin.com/in/meltrust/)
+- Or talk to me directly at: original.mtapia@outlook.com
+
 
 ## 🤝 Contributing
 
@@ -59,15 +70,19 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+
 ## Acknowledgments
 
+- [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX) for his cool design.
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
 
 ## 📝 License
 
