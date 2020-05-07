@@ -583,11 +583,15 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .main-logo {
     height: 2.5rem;
     position: relative;
     top: 1px;
+  }
+
+  .main-search-section-headers {
+    font-size: 11px;
   }
 }
 
@@ -638,5 +642,9 @@ footer {
     color: #888;
     font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
     font-size: 18px;
+  }
+
+  .main-search-section-headers {
+    font-size: 100%;
   }
 }
