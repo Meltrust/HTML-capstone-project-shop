@@ -15,6 +15,12 @@ A beautiful musical instruments shop built with business specifications based on
 ![screenshot](./search-screenshot.png)
 
 
+## Check out a Live Demo [Here](https://raw.githack.com/Meltrust/HTML-capstone-project-shop/develop/index.html)
+
+
+## Watch a video with the presentation of the project [here]()
+
+
 ## Built With
 
 - HTML 5
@@ -28,12 +34,6 @@ A beautiful musical instruments shop built with business specifications based on
   *  W3C validator for HTML
   *  Stickler for "Style Matters" stickler
   *  Stylelint for VSCode
-
-
-## Check out a Live Demo [Here](https://raw.githack.com/Meltrust/HTML-capstone-project-shop/develop/index.html)
-
-
-## Watch a video with the presentation of the project [here]()
 
 
 ## Getting Started:
