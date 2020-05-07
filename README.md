@@ -1,4 +1,4 @@
-# HTML & CSS CAPSTONE PROJECT: A CUSTOM SHOP. 
+# HTML & CSS CAPSTONE PROJECT: A CUSTOM SHOP! 
 
 A beautiful musical instruments shop built with business specifications based on the design by Mohammed Awad.
 
@@ -8,11 +8,19 @@ A beautiful musical instruments shop built with business specifications based on
 
 ![screenshot](./home-screenshot.png)
 
-
+  This page shows the main catalogue of the shop.  It shows in the center of the screen a showcased product, it lets the user          
+  search by department exactly what he/she is looking for.  One can also scroll down if preferred to show the entire array of  
+  musical instruments on sale.  On the bottom of the page, there is a navigational footer, complete with links to social 
+  media.
+  
 
 ## This is the product search page.
 
 ![screenshot](./search-screenshot.png)
+
+  This one is the search results page of the shop. It shows a really handy sidebar with a HTML form full of search controls   
+  so the user can finetune his/her search to find exactly the instrument desired, the size and the price range.  Showcasing 
+  at the center is the full array of discovered products with the last search.
 
 
 ## Check out a Live Demo [Here](https://raw.githack.com/Meltrust/HTML-capstone-project-shop/develop/index.html)
@@ -21,12 +29,19 @@ A beautiful musical instruments shop built with business specifications based on
 ## Watch a video with the presentation of the project [here]()
 
 
+## Future Updates & Roadmap:
+
+- Include more images.
+- Update all the links.
+
+
 ## Built With
 
 - HTML 5
 - CSS Flexbox
 - CSS Grid
 - BootStrap
+- Custom @media Queries
 
 
 ## Validators:
