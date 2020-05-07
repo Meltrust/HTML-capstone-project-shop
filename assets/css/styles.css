@@ -53,6 +53,22 @@ b {
   font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
 }
 
+.border-right-solid {
+  border-right: solid 1px #3838381c;
+}
+
+.border-left-solid {
+  border-left: solid 1px #3838381c;
+}
+
+.border-top-solid {
+  border-top: solid 1px #3838381c;
+}
+
+.border-bottom-solid {
+  border-bottom: solid 1px #3838381c;
+}
+
 .ad-button-text {
   font-family: Gothic-Bold, Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -74,7 +90,8 @@ b {
 
 .collections-container,
 .purchase-list-container,
-.nav-envelope-container {
+.nav-envelope-container,
+.search-icon-container {
   color: #888;
 }
 
@@ -176,11 +193,11 @@ b {
 }
 
 .hot-ads-img-right-arrow {
-  color: #d35266;
+  color: #d35266 !important;
 }
 
 .hot-ads-img-left-arrow {
-  color: #d35266;
+  color: #d35266 !important;
 }
 
 .main-shop-section {
@@ -272,11 +289,14 @@ b {
 }
 
 footer {
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 40px;
   max-width: 100%;
   display: flex;
   justify-content: center;
+  border-bottom: solid 1px #d352653f;
+  padding-bottom: 40px;
 }
 
 .footer-columns {
@@ -386,6 +406,41 @@ footer {
   padding-right: 6%;
 }
 
+.copyright {
+  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
+  color: #888;
+  font-size: 15px;
+}
+
+.footer-icons-wrapper {
+  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
+  color: #888;
+  font-size: 18px;
+}
+
+.footer-icons-wrapper ul li {
+  margin-right: 15px;
+}
+
+.main-search-results-section {
+  background-color: #fae3e7;
+  border-bottom: solid 1px #3838381c;
+  border-top: solid 1px #3838381c;
+}
+
+.main-search-results-img-container {
+  height: 100%;
+}
+
+.main-search-results-img {
+  height: 100%;
+  object-fit: fill;
+}
+
+.main-page-results-article {
+  border: solid 1px #3838381c;
+}
+
 .form-text {
   color: #888;
   font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
@@ -401,6 +456,62 @@ footer {
   justify-content: flex-start !important;
 }
 
+.col-form-label-sm {
+  padding-left: 5px !important;
+}
+
+.search-page-articles-header {
+  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #383838;
+}
+
+.search-page-articles-condition {
+  color: #d35266;
+  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.search-page-item-description {
+  color: #888;
+  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.search-page-articles-location {
+  color: #383838;
+  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.search-page-articles-location span {
+  color: #888;
+  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.search-page-articles-date {
+  color: #888;
+  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.search-pages-numbers {
+  border: solid 1px #38383869;
+  padding: 5px;
+  margin-right: 10px;
+  color: #888;
+  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: white;
+}
+
+.search-pages-numbers-text {
+  margin-right: 10px;
+  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
 /** MEDIA QUERIES */
 
 @media (max-width: 740px) {
@@ -412,7 +523,7 @@ footer {
     height: 1.5rem;
     position: relative;
     top: 1px;
-    width: 70px !important;
+    width: 60px !important;
   }
 
   .nav-icons-container {
@@ -420,11 +531,19 @@ footer {
     position: relative !important;
     top: -1px !important;
   }
+
+  .footer-columns {
+    max-width: 100%;
+  }
+
+  .copyright {
+    font-family: Helvetica-light, Arial, Helvetica, sans-serif;
+  }
 }
 
 @media (max-width: 768px) {
   nav {
-    font-size: 0.7rem;
+    font-size: 11px !important;
   }
 
   .main-logo {
@@ -450,6 +569,12 @@ footer {
 
   .footer-columns {
     flex-direction: column;
+  }
+
+  .main-search-section-headers {
+    font-size: 10px;
+    margin-bottom: 0 !important;
+    padding: 10px 0;
   }
 }
 
@@ -478,5 +603,35 @@ footer {
 
   .footer-column-4 {
     align-self: flex-start;
+  }
+}
+
+@media (min-width: 1400px) {
+  .search-page-articles-header {
+    font-size: 20px;
+    padding-bottom: 15px !important;
+  }
+
+  .search-page-articles-condition {
+    font-size: 19px;
+  }
+
+  .search-page-item-description {
+    font-size: 18px;
+  }
+
+  .search-page-articles-location {
+    font-size: 18px;
+    padding-bottom: 15px !important;
+  }
+
+  .search-page-articles-location span {
+    font-size: 18px;
+  }
+
+  .search-page-articles-date {
+    color: #888;
+    font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
+    font-size: 18px;
   }
 }
