@@ -1,11 +1,14 @@
-# HTML & CSS CAPSTONE PROJECT: A CUSTOM SHOP BUILT WITH BUSSINES SPECIFICATIONS! 
+# HTML & CSS CAPSTONE PROJECT: A CUSTOM SHOP. 
 
-> A beautiful musical instruments shop.
+> A beautiful musical instruments shop built with business specifications based on the design by Mohammed Awad.
+
 
 
 ## This is the main homepage.
 
 ![screenshot](./home-screenshot.png)
+
+
 
 ## This is the product search page.
 
@@ -18,6 +21,7 @@
 - CSS Flexbox
 - CSS Grid
 - BootStrap
+
 
 ## Validators:
 
@@ -55,15 +59,6 @@ To get a local copy up and running follow these simple example steps:
    sizes.
 
 
-## Author
-
-👤 **Miguel Tapia**
-
-- Github: [@meltrust](https://github.com/meltrust)
-- Linkedin: [linkedin](https://www.linkedin.com/in/meltrust/)
-- Or talk to me directly at: original.mtapia@outlook.com
-
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -87,3 +82,12 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+
+
+## Author
+
+👤 **Miguel Tapia**
+
+- Github: [@meltrust](https://github.com/meltrust)
+- Linkedin: [linkedin](https://www.linkedin.com/in/meltrust/)
+- Or talk to me directly at: original.mtapia@outlook.com
