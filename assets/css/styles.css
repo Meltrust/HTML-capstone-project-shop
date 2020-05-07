@@ -75,7 +75,7 @@ b {
 }
 
 .main-logo {
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .home-container {
