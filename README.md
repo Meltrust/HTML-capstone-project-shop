@@ -26,7 +26,7 @@ A beautiful and responsive musical instruments shop built with business specific
 ## Check out a Live Demo [Here](https://raw.githack.com/Meltrust/HTML-capstone-project-shop/develop/index.html)
 
 
-## Watch a video with the presentation of the project [here]()
+## Watch a video with the presentation of the project [here](https://www.loom.com/share/dd3674f330124e3ba89aa93c639867f7)
 
 
 ## Future Updates & Roadmap:
