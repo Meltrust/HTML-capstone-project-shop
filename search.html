@@ -62,7 +62,7 @@
             <div class="text-nowrap">PURCHASE LIST</div>
           </li>
 
-          <li class="ad-button-container d-none d-md-block ml-3">
+          <li class="ad-button-container ml-3">
             <button
               class="ad-button-text text-nowrap btn text-white font-weight-bold"
             >
@@ -70,7 +70,7 @@
             </button>
           </li>
         </ul>
-        <ul class="d-lg-flex d-none justify-items-around align-items-center">
+        <ul class="envelope justify-content-around align-items-center">
           <li class="position-relative mr-2 mr-sm-3 nav-icons-container">
             <div class="nav-envelope-container">
               <i class="fas fa-envelope"></i>
@@ -90,7 +90,7 @@
     <main class="px-0 w-100">
       <!-- ** Main search section -->
       <section
-        class="pt-0 search-section d-none d-md-flex justify-content-center align-items-center flex-column"
+        class="pt-0 search-section justify-content-center align-items-center flex-column"
       >
         <h1 class="justify-center text-white search-section-zattix">
           ZATTIX
@@ -131,11 +131,11 @@
       <!-- ** Main search results Section -->
 
       <section class="container-fluid main-search-results-section pt-md-2">
-        <h3 class="d-none">Main Results Section</h3>
+        <h3 class="hide-elements">Main Results Section</h3>
         <div class="row">
-          <aside class="d-none col-md-3 col-xl-2 d-md-block">
+          <aside class="aside-controls col-md-3 col-xl-2 pr-0 pr-xl-3">
             <form
-              class="h-100 main-form container w-100 border-right-solid pr-4 pl-3 pt-2"
+              class="h-100 main-form container w-100 border-right-solid pr-0 pl-xl-5 pt-2"
             >
               <div class="form-row form-group w-100 align-items-center">
                 <div class="col-6">
@@ -276,7 +276,7 @@
                       id="inlineFormInputName2"
                     />
                     <label
-                      class="col-form-label-sm d-none"
+                      class="col-form-label-sm hide-elements"
                       for="inlineFormInputName2"
                     ></label>
                   </div>
@@ -349,8 +349,8 @@
               </div>
             </form>
           </aside>
-          <div class="col-md-1 col-xl-1 d-none d-md-block"></div>
-          <div class="col-12 col-md-7 col-xl-8">
+          <div class="col-1 main-search-section-separators"></div>
+          <div class="col-12 col-md-8">
             <div class="row">
               <div
                 class="col-12 w-100 d-flex justify-content-center justify-content-md-start align-items-center main-search-section-headers mb-4 mt-sm-3"
@@ -399,7 +399,7 @@
                   </div>
                 </div>
                 <div
-                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-4"
+                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-md-4"
                 >
                   <div class="d-flex justify-content-between">
                     <h3 class="search-page-articles-header pt-2 pt-md-0 pb-1">
@@ -426,20 +426,16 @@
                       23 Nov, 2014
                     </p>
                     <div class="d-flex justify-content-between">
-                      <button class="btn text-white mr-1 hot-ads-buttons">
+                      <button class="btn text-white mr-md-1 hot-ads-buttons">
                         $20,000
-                      </button>
-                      <button
-                        class="btn text-white hot-ads-buttons text-nowrap d-none"
-                      >
-                        <i class="fas fa-shopping-cart"></i>
-                        Purchase details
                       </button>
                     </div>
                   </div>
                 </div>
               </article>
-              <article class="row main-page-results-article p-3 bg-light">
+              <article
+                class="row main-page-results-article p-3 bg-light border"
+              >
                 <div class="col-12 col-md-3 px-2 p-md-0">
                   <div
                     class="main-search-results-img-container position-relative"
@@ -461,7 +457,7 @@
                   </div>
                 </div>
                 <div
-                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-4"
+                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-md-4"
                 >
                   <div class="d-flex justify-content-between">
                     <h3 class="search-page-articles-header pt-2 pt-md-0 pb-1">
@@ -523,7 +519,7 @@
                   </div>
                 </div>
                 <div
-                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-4"
+                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-md-4"
                 >
                   <div class="d-flex justify-content-between">
                     <h3 class="search-page-articles-header pt-2 pt-md-0 pb-1">
@@ -552,12 +548,6 @@
                     <div class="d-flex justify-content-between">
                       <button class="btn text-white mr-1 hot-ads-buttons">
                         $20,000
-                      </button>
-                      <button
-                        class="btn text-white hot-ads-buttons text-nowrap d-none"
-                      >
-                        <i class="fas fa-shopping-cart"></i>
-                        Purchase details
                       </button>
                     </div>
                   </div>
@@ -585,7 +575,7 @@
                   </div>
                 </div>
                 <div
-                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-4"
+                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-md-4"
                 >
                   <div class="d-flex justify-content-between">
                     <h3 class="search-page-articles-header pt-2 pt-md-0 pb-1">
@@ -614,12 +604,6 @@
                     <div class="d-flex justify-content-between">
                       <button class="btn text-white mr-1 hot-ads-buttons">
                         $20,000
-                      </button>
-                      <button
-                        class="btn text-white hot-ads-buttons text-nowrap d-none"
-                      >
-                        <i class="fas fa-shopping-cart"></i>
-                        Purchase details
                       </button>
                     </div>
                   </div>
@@ -647,7 +631,7 @@
                   </div>
                 </div>
                 <div
-                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-4"
+                  class="col-12 col-md-9 d-flex flex-column justify-content-center p-3 pl-md-4"
                 >
                   <div class="d-flex justify-content-between">
                     <h3 class="search-page-articles-header pt-2 pt-md-0 pb-1">
@@ -676,12 +660,6 @@
                     <div class="d-flex justify-content-between">
                       <button class="btn text-white mr-1 hot-ads-buttons">
                         $20,000
-                      </button>
-                      <button
-                        class="btn text-white hot-ads-buttons text-nowrap d-none"
-                      >
-                        <i class="fas fa-shopping-cart"></i>
-                        Purchase details
                       </button>
                     </div>
                   </div>
@@ -701,14 +679,18 @@
               </div>
             </div>
           </div>
-          <div class="col-md-1 col-xl-1 d-none d-md-block"></div>
+          <div class="col-1 main-search-section-separators"></div>
         </div>
       </section>
       <footer>
         <div class="footer-columns">
           <div class="footer-column-1">
             <div class="footer-logo-container">
-              <img src="assets/images/logo-footer.png" alt="" />
+              <img
+                class="footer-logo-img"
+                src="assets/images/logo-footer.png"
+                alt=""
+              />
             </div>
             <div class="footer-text text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
@@ -723,7 +705,7 @@
               <ul class="footer-nav-column-1">
                 <li>Pianos</li>
                 <li>Guitars</li>
-                <li>Headphones</li>
+                <li>Basses</li>
                 <li>Drums</li>
                 <li>Violins</li>
                 <li>Flutes</li>
@@ -731,7 +713,7 @@
               <ul class="footer-nav-column-2">
                 <li>Pianos</li>
                 <li>Guitars</li>
-                <li>Headphones</li>
+                <li>Basses</li>
                 <li>Drums</li>
                 <li>Violins</li>
                 <li>Flutes</li>
@@ -750,7 +732,7 @@
                 <li>Help</li>
               </ul>
             </div>
-            <div class="footer-column-2-header d-xl-none"></div>
+            <div class="footer-column-hidden-header"></div>
           </div>
           <div class="footer-column-4">
             <div class="footer-column-4-first-column mt-2 pr-2">
@@ -771,7 +753,7 @@
         </div>
       </footer>
       <div
-        class="last-footer-row d-flex justify-content-md-between align-items-center p-3"
+        class="last-footer-row d-flex justify-content-md-around align-items-center p-3"
       >
         <div class="copyright text-justtify">
           Copyright© 2015 Zattix.com. All Rights Reserved. Designed by Mohammed
