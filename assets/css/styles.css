@@ -273,9 +273,12 @@ b,
   font-size: 20px;
 }
 
-.main-page-articles-condition,
-.main-page-articles-location {
+.main-page-articles-condition {
   font-size: 15px;
+}
+
+.main-page-articles-location {
+  font-size: 13px;
 }
 
 .main-page-articles-container span,
