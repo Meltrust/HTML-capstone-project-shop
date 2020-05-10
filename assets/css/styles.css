@@ -273,10 +273,7 @@ b,
   font-size: 20px;
 }
 
-.main-page-articles-condition {
-  font-size: 15px;
-}
-
+.main-page-articles-condition,
 .main-page-articles-location {
   font-size: 15px;
 }
@@ -313,8 +310,8 @@ footer {
   display: flex;
   justify-content: center;
   border-bottom: solid 1px #d352653f;
-  padding-bottom: 0px;
   margin: 0 auto;
+  padding-bottom: 0;
 }
 
 .footer-logo-img {
@@ -602,7 +599,9 @@ footer {
     font-size: 1.7vw;
   }
 
-  .search-icon-container {
+  .search-icon-container,
+  .main-search-section-separators,
+  .footer-column-hidden-header {
     display: none;
   }
 
@@ -612,14 +611,6 @@ footer {
 
   .search-section {
     display: flex;
-  }
-
-  .main-search-section-separators {
-    display: none;
-  }
-
-  .footer-column-hidden-header {
-    display: none;
   }
 
   .footer-columns {
@@ -637,10 +628,6 @@ footer {
     top: 30px;
   }
 
-  .footer-column-1 {
-    font-size: 12px;
-  }
-
   .footer-logo-img {
     height: 50px;
   }
@@ -650,15 +637,10 @@ footer {
   }
 
   .footer-column-2-header,
+  .footer-column-4-labels,
+  .footer-column-4-buttons,
+  .footer-column-1,
   .footer-nav li {
-    font-size: 12px;
-  }
-
-  .footer-column-4-labels {
-    font-size: 12px;
-  }
-
-  .footer-column-4-buttons {
     font-size: 12px;
   }
 }
@@ -716,20 +698,14 @@ footer {
     font-size: 19px;
   }
 
-  .search-page-item-description {
-    font-size: 18px;
-  }
-
   .search-page-articles-location {
-    font-size: 18px;
     padding-bottom: 15px !important;
   }
 
+  .search-page-item-description,
+  .search-page-articles-date,
+  .search-page-articles-location,
   .search-page-articles-location span {
-    font-size: 18px;
-  }
-
-  .search-page-articles-date {
     font-size: 18px;
   }
 }
