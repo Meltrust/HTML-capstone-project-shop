@@ -35,50 +35,81 @@ a {
   text-decoration: none !important;
 }
 
-button {
+button,
+.search-section {
   background-color: #d35266 !important;
 }
 
 header {
-  background-color: #383838;
   font-size: 1rem;
   max-width: 100%;
+}
+
+header,
+.hot-ads-img-arrows-container,
+.main-search-button {
+  background-color: #383838 !important;
 }
 
 main {
   height: 100vh;
 }
 
-b {
+b,
+.search-section-zattix,
+.hot-ads-header,
+.main-shop-section-headers-title,
+.main-page-articles-header,
+.main-page-articles-condition,
+.main-page-articles-price,
+.footer-column-4-labels,
+.footer-column-4-buttons,
+.footer-column-2-header,
+.main-form-headers,
+.search-page-articles-header,
+.search-page-articles-condition,
+.search-page-articles-location,
+.search-pages-numbers,
+.search-pages-numbers-text {
   font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
 }
 
-.border-right-solid {
+.border-right-solid,
+.border-left-solid,
+.border-top-solid,
+.border-bottom-solid {
   border-right: solid 1px #3838381c;
 }
 
-.border-left-solid {
-  border-left: solid 1px #3838381c;
-}
-
-.border-top-solid {
-  border-top: solid 1px #3838381c;
-}
-
-.border-bottom-solid {
-  border-bottom: solid 1px #3838381c;
-}
-
 .ad-button-text {
-  font-family: Gothic-Bold, Arial, Helvetica, sans-serif;
   font-size: 15px;
+  padding-bottom: 0.3rem !important;
 }
 
-.main-logo {
+.ad-button-text,
+.unread-messages-number,
+.nav-user-name,
+.hot-ads-item-header,
+.hot-ads-buttons {
+  font-family: Gotham-Bold, Arial, Helvetica, sans-serif;
+}
+
+.main-logo,
+.main-page-articles-img-container {
   object-fit: contain;
 }
 
-.home-container {
+.home-container,
+.hot-ads-section-left-arrow,
+.hot-ads-section-right-arrow,
+.hot-ads-item-header,
+.hot-ads-img-right-arrow,
+.hot-ads-img-left-arrow,
+.main-page-articles-condition,
+.main-page-articles-price,
+.footer-column-4-labels,
+.footer-column-2-header,
+.search-page-articles-condition {
   color: #d35266 !important;
 }
 
@@ -91,7 +122,20 @@ b {
 .collections-container,
 .purchase-list-container,
 .nav-envelope-container,
-.search-icon-container {
+.search-icon-container,
+.main-search-button,
+.hot-ads-header,
+.main-shop-section-headers,
+.footer-text,
+.footer-nav ul li,
+.copyright,
+.footer-icons-wrapper,
+.form-text,
+.search-page-item-description,
+.search-page-articles-location,
+.search-page-articles-location span,
+.search-page-articles-date,
+.search-pages-numbers {
   color: #888;
 }
 
@@ -114,11 +158,6 @@ b {
   width: 12px;
   height: 12px;
   font-size: 11px;
-  font-family: Gotham-Bold, Arial, Helvetica, sans-serif;
-}
-
-.nav-user-name {
-  font-family: Gotham-Bold, Arial, Helvetica, sans-serif;
 }
 
 .nav-user-img-container {
@@ -131,73 +170,50 @@ b {
 }
 
 .search-section {
-  background-color: #d35266;
   height: 35%;
 }
 
 .search-section-zattix {
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
   font-size: 100px;
   margin-bottom: 15px;
 }
 
 .search-section-text {
-  font-family: Helvetica-Light, Arial, Helvetica, sans-serif;
   font-size: 25px;
 }
 
-.main-search-button {
-  color: #888;
-  background-color: #383838 !important;
+.search-section-text,
+.item-description,
+.main-shop-section-headers-description,
+.main-page-articles-location {
+  font-family: Helvetica-Light, Arial, Helvetica, sans-serif;
 }
 
 .hot-ads-section {
   max-width: 80%;
 }
 
-.hot-ads-section-left-arrow,
-.hot-ads-section-right-arrow {
-  color: #d35266;
-}
-
 .hot-ads-header {
   left: 20%;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
-  color: #888;
   width: max-content;
   font-size: 100%;
 }
 
-.hot-ads-item-header {
-  color: #d35266;
-  font-family: Gotham-Bold, Arial, Helvetica, sans-serif;
-}
-
 .item-description {
-  font-family: Helvetica-Light, Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
 .hot-ads-buttons {
-  font-family: Gothic-Bold, Arial, Helvetica, sans-serif;
   font-size: 15px;
+  padding-bottom: 0.29rem;
 }
 
 .hot-ads-img-arrows-container {
   display: flex;
-  background-color: #383838;
   position: absolute;
   right: 0;
   bottom: 0;
   background-size: cover;
-}
-
-.hot-ads-img-right-arrow {
-  color: #d35266 !important;
-}
-
-.hot-ads-img-left-arrow {
-  color: #d35266 !important;
 }
 
 .main-shop-section {
@@ -210,20 +226,11 @@ b {
 
 .main-shop-section-headers {
   height: 50px;
-  color: #888;
   border-bottom: solid 1px #3838381c;
 }
 
 .main-shop-section-headers-icon-container {
   font-size: 30px;
-}
-
-.main-shop-section-headers-title {
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
-}
-
-.main-shop-section-headers-description {
-  font-family: Helvetica-Light, Arial, Helvetica, sans-serif;
 }
 
 .main-page-articles-container {
@@ -233,7 +240,10 @@ b {
   align-items: center;
 }
 
-.main-page-articles-container div {
+.main-page-articles-container div,
+.footer-column-4-buttons,
+.search-page-articles-header,
+.search-page-articles-location {
   color: #383838 !important;
 }
 
@@ -247,27 +257,30 @@ b {
 .main-page-articles-img-container {
   display: flex;
   justify-content: center;
-  object-fit: contain;
   height: 100%;
 }
 
 .main-page-articles-header {
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
 .main-page-articles-condition {
-  color: #d35266;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
 .main-page-articles-location {
   font-size: 15px;
-  font-family: Helvetica-light, Arial, Helvetica, sans-serif;
 }
 
-.main-page-articles-container span {
+.main-page-articles-container span,
+.footer-text,
+.footer-nav ul li,
+.copyright,
+.footer-icons-wrapper,
+.form-text,
+.search-page-item-description,
+.search-page-articles-location span,
+.search-page-articles-date {
   font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
 }
 
@@ -281,11 +294,6 @@ b {
 
 .main-page-articles-plus-container {
   color: rgba(136, 136, 136, 0.671);
-}
-
-.main-page-articles-price {
-  color: #d35266;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -316,18 +324,10 @@ footer {
 }
 
 .footer-text {
-  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
-  color: #888;
   padding-top: 20px;
 }
 
-.footer-column-2 {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 1%;
-}
-
+.footer-column-2,
 .footer-column-3 {
   display: flex;
   flex-direction: column;
@@ -339,6 +339,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
+  height: 100%;
 }
 
 .footer-column-4-items {
@@ -349,19 +350,14 @@ footer {
 }
 
 .footer-column-4-labels {
-  color: #d35266;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
   margin-right: 1%;
 }
 
 .footer-column-4-buttons {
-  color: #383838;
   border: solid 1px #d352659a;
   border-radius: 5px;
   background-color: white !important;
   padding: 10px;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
-  font-size: 14px;
   width: 100%;
 }
 
@@ -369,8 +365,6 @@ footer {
   padding-bottom: 10px;
   margin-bottom: 12px;
   border-bottom: 2px solid #d35266;
-  color: #d35266;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
 }
 
 .footer-nav {
@@ -381,21 +375,10 @@ footer {
 .footer-nav ul li {
   display: flex;
   align-items: center;
-  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
-  color: #888;
   padding-bottom: 8px;
 }
 
-.footer-nav-column-1 {
-  display: flex;
-  list-style: none;
-  flex-direction: column;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 3%;
-  padding-right: 6%;
-}
-
+.footer-nav-column-1,
 .footer-nav-column-2 {
   display: flex;
   list-style: none;
@@ -406,15 +389,12 @@ footer {
   padding-right: 6%;
 }
 
-.copyright {
-  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
-  color: #888;
+.copyright,
+.search-page-articles-header {
   font-size: 15px;
 }
 
 .footer-icons-wrapper {
-  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
-  color: #888;
   font-size: 18px;
 }
 
@@ -442,13 +422,10 @@ footer {
 }
 
 .form-text {
-  color: #888;
-  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
 .main-form-headers {
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -460,39 +437,14 @@ footer {
   padding-left: 5px !important;
 }
 
-.search-page-articles-header {
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  color: #383838;
-}
-
-.search-page-articles-condition {
-  color: #d35266;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-.search-page-item-description {
-  color: #888;
-  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-.search-page-articles-location {
-  color: #383838;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-.search-page-articles-location span {
-  color: #888;
-  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-.search-page-articles-date {
-  color: #888;
-  font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
+.search-page-articles-condition,
+.search-page-item-description,
+.search-page-articles-location,
+.search-page-articles-location span,
+.search-page-articles-date,
+.search-pages-numbers-text,
+.search-pages-numbers,
+.footer-column-4-buttons {
   font-size: 14px;
 }
 
@@ -500,16 +452,11 @@ footer {
   border: solid 1px #38383869;
   padding: 5px;
   margin-right: 10px;
-  color: #888;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
-  font-size: 14px;
   background-color: white;
 }
 
 .search-pages-numbers-text {
   margin-right: 10px;
-  font-family: Helvetica-Bold, Arial, Helvetica, sans-serif;
-  font-size: 14px;
 }
 
 /** MEDIA QUERIES */
@@ -639,8 +586,6 @@ footer {
   }
 
   .search-page-articles-date {
-    color: #888;
-    font-family: Helvetica-Medium, Arial, Helvetica, sans-serif;
     font-size: 18px;
   }
 
