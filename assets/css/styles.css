@@ -488,9 +488,9 @@ footer {
 
 /** MEDIA QUERIES */
 
-@media (max-width: 740px) {
+@media (max-width: 365px) {
   nav {
-    font-size: 9px !important;
+    font-size: 2.5vw !important;
   }
 
   .main-logo {
@@ -517,7 +517,7 @@ footer {
 
 @media (max-width: 768px) {
   nav {
-    font-size: 11px !important;
+    font-size: 11px;
   }
 
   .main-logo {
@@ -537,7 +537,7 @@ footer {
   }
 
   .main-page-articles-container {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
     row-gap: 2%;
   }
 
@@ -548,31 +548,25 @@ footer {
   }
 
   .main-search-section-headers {
-    font-size: 2.7vw;
+    font-size: 2.1vw;
     margin-bottom: 0 !important;
     padding: 10px 0;
   }
 
-  footer {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-
+  .aside-controls,
   .ad-button-container,
   .search-section,
   .hot-ads-section,
+  .main-search-section-separators,
   .main-shop-section-headers-separators,
   .hot-ads-section-left-arrow,
-  .hot-ads-section-right-arrow,
-  .aside-controls,
-  .main-search-section-separators {
+  .hot-ads-section-right-arrow {
     display: none;
   }
 
   .footer-column-1 {
     min-width: 100%;
     padding-bottom: 45px;
-    min-height: 22vh;
   }
 
   .footer-nav {
@@ -589,13 +583,33 @@ footer {
     position: static;
     padding: 15px;
   }
+
+  .copyright {
+    font-family: Helvetica-light, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-right: 1%;
+  }
 }
 
 @media (min-width: 768px) {
+  .aside-controls {
+    display: block;
+  }
+
+  .envelope {
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) {
   .main-logo {
     height: 2.5rem;
     position: relative;
     top: 1px;
+  }
+
+  .envelope {
+    display: none;
   }
 
   .main-search-section-headers {
@@ -625,7 +639,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 769px) and (max-width: 1000px) {
   .footer-column-4 {
     position: relative;
     top: 30px;
@@ -665,7 +679,7 @@ footer {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   .envelope {
     display: none;
   }
