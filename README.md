@@ -23,7 +23,7 @@ A beautiful and responsive musical instruments shop built with business specific
   at the center is the full array of discovered products with the last search.
 
 
-## Check out a Live Demo [here](https://raw.githack.com/Meltrust/HTML-capstone-project-shop/develop/index.html)
+## Check out a Live Demo [here](https://meltrust.github.io/HTML-capstone-project-shop/index.html)
 
 
 ## Watch a video with the presentation of the project [here](https://www.loom.com/share/d252d68804ab415a984578a5dd456db6)
