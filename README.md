@@ -1,10 +1,61 @@
-# HTML & CSS CAPSTONE PROJECT: A CUSTOM SHOP! 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
+
+<!-- PROJECT LOGO -->
+
+<br />
+<p align="center">
+  <a href="https://github.com/Meltrust/HTML-capstone-project-shop" style="text-decoration: none;">
+    <img src="/assets/images/logo-zattix.png" alt="Reserved logo" width="400" height="100" align="center">
+  </a>
+
+  <h2 align="center">Zattix</h2>
+
+  <h3 align="center">HTML & CSS Project --> HTML-capstone-project-shop<h3>
+  <p align="center">
+    <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    -
+    <a href="https://github.com/Meltrust/HTML-capstone-project-shop/issues">Report a Bug</a>
+    -
+    <a href="https://github.com/Meltrust/HTML-capstone-project-shop/issues">Request a Feature</a>
+    -
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+
+  - [This is the main homepage](#this-is-the-main-homepage)
+  - [This is the product search page](#this-is-the-product-search-page)
+  - [Check out a Live Demo](#check-out-a-live-demo)
+  - [Watch a video with the presentation of the project](#watch-a-video-with-the-presentation-of-the-project)
+  - [Future Updates and Roadmap](#future-updates-and-roadmap)
+  - [Built With](#built-with)
+  - [Validators](#validators)
+  - [Install](#install)
+ 
+- [Author](#author)
+- [Contributing](#contributing)
+- [Show Your Support](#show-your-support)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
+
+  
+## About the project
+  
 A beautiful and responsive musical instruments shop built with business specifications based on the design by Mohammed Awad.
 
 
 
-## This is the main homepage.
+## This is the main homepage
 
 ![screenshot](./home-screenshot.png)
 
@@ -14,7 +65,7 @@ A beautiful and responsive musical instruments shop built with business specific
   media.
   
 
-## This is the product search page.
+## This is the product search page
 
 ![screenshot](./search-screenshot.png)
 
@@ -23,13 +74,17 @@ A beautiful and responsive musical instruments shop built with business specific
   at the center is the full array of discovered products with the last search.
 
 
-## Check out a Live Demo [here](https://meltrust.github.io/HTML-capstone-project-shop/index.html)
+## Check out a Live Demo 
+  
+[Visit Zattix here!](https://meltrust.github.io/HTML-capstone-project-shop/index.html)
 
 
-## Watch a video with the presentation of the project [here](https://www.loom.com/share/d252d68804ab415a984578a5dd456db6)
+## Watch a video with the presentation of the project
+  
+[Video explaining Zattix features](https://www.loom.com/share/d252d68804ab415a984578a5dd456db6)
 
 
-## Future Updates & Roadmap:
+## Future Updates and Roadmap
 
 - Include more images.
 - Update all the links.
@@ -44,14 +99,14 @@ A beautiful and responsive musical instruments shop built with business specific
 - Custom @media Queries
 
 
-## Validators:
+## Validators
 
   *  W3C validator for HTML
   *  Stickler for "Style Matters" stickler
   *  Stylelint for VSCode
 
 
-## Getting Started:
+## Install
 
 To get a local copy up and running follow these simple example steps:
 
@@ -74,9 +129,17 @@ To get a local copy up and running follow these simple example steps:
    sizes.
 
 
-## 🤝 Contributing
+## Author
 
-Contributions, issues and feature requests are welcome!
+👤 **Miguel Tapia**
+
+- Github: [@meltrust](https://github.com/meltrust)
+- Linkedin: [linkedin](https://www.linkedin.com/in/meltrust/)
+- Or talk to me directly at: original.mtapia@outlook.com
+
+## Contributing
+
+🤝 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
@@ -93,16 +156,19 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+  
+## License
 
-## 📝 License
+📝 This project is [MIT](lic.url) licensed.
+  
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-This project is [MIT](lic.url) licensed.
-
-
-## Author
-
-👤 **Miguel Tapia**
-
-- Github: [@meltrust](https://github.com/meltrust)
-- Linkedin: [linkedin](https://www.linkedin.com/in/meltrust/)
-- Or talk to me directly at: original.mtapia@outlook.com
+[contributors-shield]: https://img.shields.io/github/contributors/Meltrust/HTML-capstone-project-shop.svg?style=flat-square
+[contributors-url]: https://github.com/Meltrust/HTML-capstone-project-shop/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Meltrust/HTML-capstone-project-shop
+[forks-url]: https://github.com/Meltrust/HTML-capstone-project-shop/network/members
+[stars-shield]: https://img.shields.io/github/stars/Meltrust/HTML-capstone-project-shop
+[stars-url]: https://github.com/Meltrust/phaser3-shooter-game/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Meltrust/HTML-capstone-project-shop.svg?style=flat-square
+[issues-url]: https://github.com/Meltrust/HTML-capstone-project-shop/issues
