@@ -50,8 +50,8 @@
 
   
 ## About the project
-  
-A beautiful and responsive musical instruments shop built with business specifications based on the design by Mohammed Awad.
+    
+A beautiful and responsive musical instruments shop built with business specifications based on the design by Mohammed Awad.  CSS Flexbox, Grid, and Media Queries were used among other industry-standard tools. Made with HTML5 and CSS3.  Totally responsive. Based on the design by Mohammed Awad.
 
 
 
